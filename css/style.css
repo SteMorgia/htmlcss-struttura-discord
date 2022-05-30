@@ -14,7 +14,7 @@
 }
 
 .header{
-    display: inline-block;
+    
     margin: 10px 0px;
     background-color: orange;
     border: 2px dotted;
@@ -81,7 +81,6 @@
 }
 
 .grande{
-    display: inline-block;
     width: 40%;
     height: 80%;
 }
@@ -91,7 +90,6 @@
 }
 
 .piccolo{
-    display: inline-block;
     width: 30%;
     height: 80%;
 }
@@ -118,4 +116,49 @@
 
 .debug .contenitore_unico{
     background-color: darkgreen;
+}
+
+/* qui finiscono stilizzazioni per il main */
+
+.debug footer{
+    background-color: black;
+    height: 800px;
+}
+
+footer{
+    width: 100%;
+    
+}
+.contenitore_footer{
+    width: 70%;
+    display:flex;
+    align-items: center;
+    border: 2px dotted;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.debug .info{
+    height: 400px;
+    background-color: coral;
+}
+
+.info{
+    width: 30%;
+}
+
+.debug .navigazione{
+    height: 400px;
+    background-color:lightseagreen; 
+}
+
+.navigazione{
+    width: calc(70% / 4);
+
+}
+
+hr{
+    color: lightgrey;
 }

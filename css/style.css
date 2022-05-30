@@ -69,3 +69,53 @@
 
 /* qui finiscono stilizzazioni header */
 
+.sezione{
+    display: flex;
+    height: 560px;
+    justify-content: center;
+    align-items: center;
+}
+
+.debug .grande{
+    background-color: blue;
+}
+
+.grande{
+    display: inline-block;
+    width: 40%;
+    height: 80%;
+}
+
+.debug .piccolo{
+    background-color: darksalmon;
+}
+
+.piccolo{
+    display: inline-block;
+    width: 30%;
+    height: 80%;
+}
+
+.debug .seconda, .quarta{
+    background-color: lightgrey;
+}
+
+.seconda{
+    flex-direction: row-reverse;
+}
+
+.quarta{
+    height: 1000px;
+    display:flex;
+    justify-content: center;
+}
+
+.contenitore_unico{
+    height: 90%;
+    width: 70%;
+    align-self: center;
+}
+
+.debug .contenitore_unico{
+    background-color: darkgreen;
+}

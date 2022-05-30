@@ -42,3 +42,30 @@
 .login{
     justify-content: flex-end;
 }
+
+/*qui finiscono le stilizzazioni per il top header */
+
+.debug .main-header{
+    background-color: darkblue;
+}
+
+.debug .presentazione{
+    background-color: darkorchid;
+}
+
+.main-header{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.presentazione{
+    width: 50%;
+    height: 80%;
+    align-self:center;
+}
+
+/* qui finiscono stilizzazioni header */
+
